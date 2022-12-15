@@ -1,0 +1,259 @@
+<!doctype html>
+
+<html class="no-js" lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDES1060 Project 2</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/foundation-datepicker.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Varela+Round&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8e5acca3a3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/app.css">
+
+  </head>
+
+  <body>
+
+
+    <!-- place your code starting here -->
+
+    <header>
+      <div class="grid-container">
+        <div class="grid-x align-middle">
+         <div class="cell small-6 medium-2">
+           <img src="img/logo.png" alt="logo">
+         </div>
+         <div class="cell small-6 medium-10 text-right">
+           <ul class="menu align-right show-for-medium">
+             <li><a href="#services-available">Activities</a></li>
+             <li><a href="#location">Amenities</a></li>
+             <li><a href="#room-reserve">Book Rooms</a></li>
+             <li><a href="#about-us">About Us</a></li>
+           </ul>
+           <button class="show-for-small-only">Menu</button>
+         </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="layer-text">
+             <img src="img/hero.jpg" alt="hero" class="show-for-medium">
+             <img src="img/hero_mobile.jpg" alt="hero" class="show-for-small-only">
+             <div class="inner-grid">
+               <h1>Welcome to Colorworld!</h1>
+               <h3>The resort committed to 
+               <br>fun and creativity!</h3>
+             </div>
+           </div>
+    </section>
+
+    <section class="customsection">
+      <div class="grid-container" id="about-us">
+        <div class="grid-x align-middle grid-margin-x grid-margin-y">
+       <div class="cell medium-6">
+         <img src="img/custom1.jpg" alt="custom 1">
+       </div>
+       <div class="cell medium-6">
+         <img src="img/custom2.jpg" alt="custom 2">
+        </div>
+      </div>
+      <div class="cell">
+        <h1>Dedicated to Creativity</h1>
+        <p>At this resort, we are not just looking to provide a night away from home, but a whole other world of creativity for the young and young at heart. Our goal is for everyone to express themselves artistically for the world to see, and with our activities we hope that this overnight trip becomes a once in a lifetime immersive experience.</p>
+        <button a data-open="about">Learn More About Us</button>
+      </div>
+
+          <div class="reveal" id="about" data-reveal>
+           <h1>About Us</h1>
+           <p>Built in 2022, we want to help inspire young minds in all aspects of life. We designed this hotel with this goal in mind, allowing creativity to be expressed in all formats during a night stay here. Nobody leaves uninspired!</p>
+           <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+           </button>
+          </div>
+      </div>
+    </section>
+
+    <section class="special">
+      <div class="grid-container" id="location">
+        <div class="grid-x align-middle grid-margin-x grid-margin-y">
+       <div class="cell medium-6 small-order-2 medium-order-1">
+        <h1>A location for you 
+          <br>and your family</h1>
+        <p>Our resort is conveniently located nearby the Crayola Experience in Pennsylvania. To accommodate such an attraction, we offer travel to and from the location as an amenity. Additionally, we work hard to provide additional experiences within our doors to continue inspiring creative minds after their visit is over.</p>
+        <button a data-open="learn">Learn More</button>
+
+          <div class="reveal" id="learn" data-reveal>
+           <h1>Services for a Fun Day</h1>
+           <p>Our hotel provides busing services complimentary with your stay, helping to save you from the struggle of finding parking for an incredible experience!</p>
+           <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+           </button>
+          </div>
+       </div>
+       <div class="cell medium-6 small-order-1">
+         <img src="img/special.jpg" alt="crayola experience">
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="grid-container" id="services-available">
+        <div class="grid-x align-middle grid-margin-x grid-margin-y">
+       <div class="cell medium-4">
+         <img src="img/features2.png" alt="features 2">
+         <h1>Activities</h1>
+         <p>We offer a variety of activities 
+          <br>for ages young and old!</p>
+          <button a data-open="Activities">View Activities</button>
+
+          <div class="reveal" id="Activities" data-reveal>
+           <h1>Our Activities</h1>
+           <p>Our resort has various activities for all ages to enjoy, mainly focused around inspiring creativity. Art supplies are abundant and the fun never ends!</p>
+           <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+           </button>
+          </div>
+        </div>
+        <div class="cell medium-4">
+         <img src="img/features3.png" alt="features 3"> 
+         <h1>Amenities</h1>
+         <p>Need specific services for 
+          <br>your stay? We can help!</p>
+          <button a data-open="Amenities">View Amenities</button>
+
+          <div class="reveal" id="Amenities" data-reveal>
+           <h1>Our Services</h1>
+           <p>We supply various needs to meet any family's needs. Ranging from basic toiletries to childcare items, we are prepared to assist you however necessary!</p>
+           <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+           </button>
+          </div>
+        </div>
+        <div class="cell medium-4 align-middle">
+         <img src="img/features1.png" alt="features 1">
+         <h1>Rooms</h1>
+         <p>Our rooms are themed for all 
+          <br>creative minds, take a look!</p>
+          <button a data-open="Rooms">View Rooms</button>
+          <div class="reveal" id="Rooms" data-reveal>
+           <h1>Our Rooms</h1>
+           <p>Each and every room has been carefully designed in order to continue your creative experience during the night hours!</p>
+           <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+           </button>
+          </div>
+       </div>
+      </div>
+      </div>
+    </section>
+
+    <!--
+    - datepicker widget (be careful when editing)
+    - displays two fields in two columns
+    - place this inside one of your page sections
+    -->
+
+    <section class="reservations">
+      <div class="grid-container" id="room-reserve">
+        <h1>Reserve a Room</h1>
+      <p>Our rooms book out fast, so be sure to reserve as soon as possible!</p>
+      <table class="table">
+      <thead>
+        <tr class="grid-x grid-margin-x grid-margin-y">
+          <th class="cell small-6">Check in:
+            <input type="text" class="span2" value="" id="dpd1">
+          </th>
+          <th class="cell small-6">Check out:
+            <input type="text" class="span2" value="" id="dpd2">
+          </th>
+        </tr>
+        <tr class="grid-x grid-margin-y">
+          <th class="cell">
+            <input type="submit" class="submit button radius small" value="Check Availability" data-open="confirmation-overlay">
+          </th>
+        </tr>        
+      </thead>
+    </table>
+      </div>
+    </section>
+
+
+    <footer>
+      <div class="grid-container">
+       <div class="grid-x">
+         <div class="cell medium-4">
+           <img class="footerlogo" src="img/logo.png" alt="logo">
+         </div>
+         <div class="cell medium-4">
+          <h1>Contact</h1>
+          <p>30 Centre Sq Cir
+            <br>Easton, PA 18042</p>
+          <p>(610) 515-8000</p>
+          <p>support@colorworldresort.com</p>
+         </div>
+         <div class="cell medium-4">
+           <h1>Connect</h1>
+           <ul>
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook"></i><a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="copyright">© Colorworld Resort</p>
+      </div>
+    </footer>
+
+    <!--
+    - overlay window with spans used to show data from datepicker
+    - edit the grid however you would like to fit your layout, but
+    - do not delete the <span class="dpd1"></span> and <span class="dpd2"></span> tags, these are used to show the user the dates they selected
+    - this section can go anywhere in your code, but to keep things organized, place it after the section where you have your date picker form
+    -->
+
+    <div id="confirmation-overlay" class="reveal" data-reveal>
+      <div class="grid-x">
+        <div class="cell large-7">
+          <div class="overlay">
+            <h1>Thank You For Booking!</h1>
+            <p>You've booked a room from <span class="dpd1"></span> to <span class="dpd2"></span>.</p>
+          </div>
+        </div>
+      </div>
+      <button class="close-button" data-close aria-label="Close modal" type="button"><span aria-hidden="true">&times;</span></button>
+    </div>
+
+
+
+    <!--
+
+    - do not delete anything below this line
+    - do not place any code below this line
+
+    -->
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/vendor/foundation-datepicker.min.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+
+</html>
