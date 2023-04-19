@@ -74,7 +74,7 @@ button{
 	font-size: 1.5rem;
 	color: white;
 	background-color: #EE204D;
-	padding: 1rem 2rem;
+	padding: 1rem 1rem;
 }
 
 button:hover{
@@ -121,11 +121,11 @@ h3{
 .customsection{
 	padding: 1rem;
 	text-align: center;
-	padding: 1.5rem 0;
+	padding: 1rem 0;
 }
 
 .customsection h1{
-	padding: 1.5rem 0;
+	padding: 1rem 0;
 }
 
 .customsection p{
@@ -133,7 +133,7 @@ h3{
 }
 
 .special{
-	padding: 1.5rem 0;
+	padding: 1rem 0;
 }
 
 
@@ -141,7 +141,7 @@ h3{
 	background-color: #1F75FE;
 	color: white;
 	text-align: center;
-	padding: 1.5rem 0;
+	padding: 1rem 0;
 }
 
 .features h1{
@@ -150,14 +150,13 @@ h3{
 
 .features p{
 	font-size: 1.5rem;
-	padding-bottom: 2rem;
+	padding-bottom: 1rem;
 }
 
 .reservations{
 	background-color: white;
 	color: black;
 	padding: 1rem;
-	padding-bottom: 1.5rem;
 }
 
 .button.small{
