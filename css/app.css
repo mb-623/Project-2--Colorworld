@@ -2,12 +2,14 @@ body{
 	font-family: 'Varela Round', sans-serif;
 }
 
+body h1{
+	font-size: 2rem;
+}
+
 header {
 	background-color: #FCE883;
 	padding: 1rem;
 }
-
-
 
 header a{
 	color: black;
