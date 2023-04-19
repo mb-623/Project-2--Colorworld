@@ -127,14 +127,20 @@ h3{
 
 .customsection h1{
 	padding: 1rem 0;
+	font-size: 2rem;
 }
 
 .customsection p{
 	padding-bottom: 1rem;
+	font-size: 1rem;
 }
 
 .special{
 	padding: 1rem 0;
+}
+
+.special h1{
+	font-size: 2rem;
 }
 
 
@@ -147,6 +153,7 @@ h3{
 
 .features h1{
 	padding: 1rem 0;
+	font-size: 2rem;
 }
 
 .features p{
