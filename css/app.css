@@ -23,6 +23,10 @@ header a:hover{
 	color: #EE204D;
 }
 
+header h1{
+	font-size: 3rem;
+}
+
 header .menu a{
 	font-size: 1.5rem;
 	font-weight: 700;
