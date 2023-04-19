@@ -4,6 +4,11 @@ body{
 
 body h1{
 	font-size: 2rem;
+	font-family: 'Cabin Sketch', cursive;
+}
+
+body h3{
+	font-family: 'Varela Round', sans-serif;
 }
 
 body p{
@@ -21,10 +26,6 @@ header a{
 
 header a:hover{
 	color: #EE204D;
-}
-
-header h1{
-	font-size: 3rem !important;
 }
 
 header .menu a{
@@ -101,13 +102,8 @@ button:hover{
 	color: white;
 }
 
-h1{
-	font-family: 'Cabin Sketch', cursive;
-	font-size: 2rem;
-}
-
-h3{
-	font-family: 'Varela Round', sans-serif;
+.hero h1{
+	font-size: 3rem;
 }
 
 .inner-grid{
@@ -137,7 +133,6 @@ h3{
 
 .customsection h1{
 	padding: 1rem 0;
-	font-size: 2rem;
 }
 
 .customsection p{
@@ -147,10 +142,6 @@ h3{
 
 .special{
 	padding: 1rem 0;
-}
-
-.special h1{
-	font-size: 2rem;
 }
 
 
@@ -163,7 +154,6 @@ h3{
 
 .features h1{
 	padding: 1rem 0;
-	font-size: 2rem;
 }
 
 .features p{
@@ -201,10 +191,6 @@ footer{
 
 footer img{
 	padding-right: 6rem;
-}
-
-footer h1{
-	font-size: 2rem;
 }
 
 footer li{
