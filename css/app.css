@@ -15,6 +15,10 @@ body p{
 	font-size: 1rem;
 }
 
+section {
+	padding: 1rem 0rem;
+}
+
 header {
 	background-color: #FCE883;
 	padding: 1rem;
