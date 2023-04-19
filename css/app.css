@@ -133,7 +133,7 @@ h3{
 }
 
 .special{
-	padding: 3rem 0;
+	padding: 1.5rem 0;
 }
 
 
@@ -141,7 +141,7 @@ h3{
 	background-color: #1F75FE;
 	color: white;
 	text-align: center;
-	padding: 3rem 0;
+	padding: 1.5rem 0;
 }
 
 .features h1{
@@ -157,7 +157,7 @@ h3{
 	background-color: white;
 	color: black;
 	padding: 1rem;
-	padding-bottom: 3rem;
+	padding-bottom: 1.5rem;
 }
 
 .button.small{
