@@ -25,11 +25,11 @@ header {
 }
 
 header a{
-	color: black;
+	color: #EE204D;
 }
 
 header a:hover{
-	color: #EE204D;
+	color: black;
 }
 
 header .menu a{
